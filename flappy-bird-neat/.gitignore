@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Virtual environments (never commit these!)
+env/
+venv/
+.venv/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Training by-products and local data
+checkpoints/
+neat-checkpoint-*
+high_score.txt
+
+# NOTE: models/best_genome.pkl is intentionally NOT ignored,
+# so that people can run play_ai.py without training first.
